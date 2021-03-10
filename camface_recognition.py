@@ -10,7 +10,7 @@ biden_pic = fr.load_image_file("Joe_Biden.jpg")
 biden_encoded_face = fr.face_encodings(biden_pic)[0]
 
 known_face_encoding = [biden_encoded_face]
-known_face_name = ["The President of US Joe Biden"]
+known_face_name = ["Joe Biden"]
 
 while True:
     ret, frame = video_shot.read()
